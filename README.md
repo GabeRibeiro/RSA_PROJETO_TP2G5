@@ -22,7 +22,16 @@ PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tr
       $ ./install_basics.sh
       $ source ${HOME}/.bashrc
  
-5\. CLONE THIS REPOSITORY 
+5\. INSTALL MOSQUITTO 
+
+      $ sudo apt install mosquitto mosquitto_clients
+      
+7\. INSTALL PAHO-MQTT
+      
+      $ pip3 install paho-mqtt
+      $ pip install paho-mqtt
+      
+6\. CLONE THIS REPOSITORY 
 
       $ git clone git@github.com:GabeRibeiro/RSA_PROJETO_TP2G5.git
       

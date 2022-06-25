@@ -6,8 +6,13 @@ PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tr
 
 # PREREQUISITES 
 1\. FLASH JETSON NANO 2GB WITH JETPACK 4.6 LINK: [4.6 JETPACK IMAGE FOR JETSON NANO 2GB] (https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/jeston_nano_2gb/jetson-nano-2gb-jp46-sd-card-image.zip)
-2\. DO: sudo apt update
+
+2\. DO:  
+
+      $ sudo apt update
+      
 3\. DO NOT UPGRADE
+
 4\. EXECUTE THE FOLLOWING COMMANDS:
  
       $ mkdir ${HOME}/project

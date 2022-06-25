@@ -33,9 +33,9 @@ FOLLOW https://code.nap.av.it.pt/atcll/object-detection-camera/-/blob/jetson_2gb
 
 * Example : 
 
-* * **line 101** : mqttc.connect("192.168.66.22",1883,60) with "192.168.66.22" being my wlan0 IP
+   * ` **line 101** : mqttc.connect("192.168.66.22",1883,60) , with "192.168.66.22" being my wlan0 IP
 
-* * **line 117** : mqttc.publish('jetson2/object', payload=finallist, qos=0, retain=False)
+   * ` **line 117** : mqttc.publish('jetson2/object', payload=finallist, qos=0, retain=False) , with "jetson2/object" being the topic I chose
 
 
 # HOW TO RUN (EXAMPLES)

@@ -1,0 +1,17 @@
+[Unit]
+Description=NAP YOLO Object Camera Detection
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/home/jetson/object-detection-camera
+ExecStart=/home/jetson/object-detection-camera/yolov4/start_detection.sh
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=NAP-YOLO
+
+[Install]
+WantedBy=multi-user.target

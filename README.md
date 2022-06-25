@@ -29,7 +29,7 @@ PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tr
 # HOW TO DEPLOY 
 FOLLOW https://code.nap.av.it.pt/atcll/object-detection-camera/-/blob/jetson_2gb/yolov4/README.md
 
-**IMPORTANT: Each Jetson Nano has a broker hosted by itself. To make the messages go to the broker you need to change the line 101 in file utils/visualization.py to your Jetson Nano's own wireless interface IP and line 117 to the topic you would like to publish to.
+** IMPORTANT: Each Jetson Nano has a broker hosted by itself. To make the messages go to the broker you need to change the line 101 in file utils/visualization.py to your Jetson Nano's own wireless interface IP and line 117 to the topic you would like to publish to.
 
 * Example : 
 * line 101 : mqttc.connect("192.168.66.22",1883,60) with "192.168.66.22" being my wlan0 IP

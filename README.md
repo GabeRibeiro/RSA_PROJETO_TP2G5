@@ -21,10 +21,10 @@ PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tr
 
       $ git clone git@github.com:GabeRibeiro/RSA_PROJETO_TP2G5.git
       
-#HOW TO DEPLOY 
+# HOW TO DEPLOY 
 FOLLOW https://code.nap.av.it.pt/atcll/object-detection-camera/-/blob/jetson_2gb/yolov4/README.md
 
-#HOW TO RUN (EXAMPLES)
+# HOW TO RUN (EXAMPLES)
 1\. USB CAMERA
 
     $ cd yolov4

@@ -22,9 +22,14 @@
       $ ./install_basics.sh
       $ source ${HOME}/.bashrc
  
-5\. INSTALL MOSQUITTO 
+5\. INSTALL MOSQUITTO AND EDIT mosquitto.conf
 
       $ sudo apt install mosquitto mosquitto_clients
+      
+   *  add the following lines to /etc/mosquitto/mosquitto.conf
+
+            $ listener 1883   
+            $ allow_anonymous true
       
 6\. INSTALL PAHO-MQTT
       

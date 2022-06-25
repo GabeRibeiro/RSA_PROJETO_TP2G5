@@ -53,21 +53,23 @@ FOLLOW https://code.nap.av.it.pt/atcll/object-detection-camera/-/blob/jetson_2gb
 
 
 # HOW TO RUN (EXAMPLES)
-On one Jetson Nano do
+On one Jetson Nano do:
 
     $ mosquitto_sub -h "ip_of_other_jetson" -t "topic_chosen_in_other_jetson"
-One the other Jetson Nano do    
-      1\. USB CAMERA
+    
+One the other Jetson Nano do one of the options below:
 
-          $ cd yolov4
-          $ python3 trt_yolo.py --usb 0 -m yolov4-416 --width 1280 --height 720
+1\. USB CAMERA
 
-      2\. VIDEO
+    $ cd yolov4
+    $ python3 trt_yolo.py --usb 0 -m yolov4-416 --width 1280 --height 720
 
-          $ cd yolov4
-          $ python3 trt_yolo.py --video ./vid2.mov -m yolov4-416
+2\. VIDEO
 
-      3\. IMAGE
+    $ cd yolov4
+    $ python3 trt_yolo.py --video ./vid2.mov -m yolov4-416
 
-          $ cd yolov4
-          $ python3 trt_yolo.py --image ./dog.jpg -m yolov4-416
+3\. IMAGE
+
+    $ cd yolov4
+    $ python3 trt_yolo.py --image ./dog.jpg -m yolov4-416

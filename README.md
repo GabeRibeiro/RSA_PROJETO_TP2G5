@@ -1,5 +1,5 @@
 # RSA_PROJETO_TP2G5
-PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tree/jetson_2gb WITH ONLY CHANGE MADE IN utils/visualization.py
+* PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tree/jetson_2gb WITH ONLY CHANGE MADE IN utils/visualization.py
 
 
 * Changes made to support mqtt based message exchange about what objects are being detected.
@@ -26,12 +26,12 @@ PROJECT CLONED FROM https://code.nap.av.it.pt/atcll/object-detection-camera/-/tr
 
       $ sudo apt install mosquitto mosquitto_clients
       
-7\. INSTALL PAHO-MQTT
+6\. INSTALL PAHO-MQTT
       
       $ pip3 install paho-mqtt
       $ pip install paho-mqtt
       
-6\. CLONE THIS REPOSITORY 
+7\. CLONE THIS REPOSITORY 
 
       $ git clone git@github.com:GabeRibeiro/RSA_PROJETO_TP2G5.git
       
